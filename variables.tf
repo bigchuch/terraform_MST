@@ -1,4 +1,4 @@
-variable resource_groups {
+variable "resource_groups" {
   type        = map(string)
   description = "The resource groups to deploy"
 }
